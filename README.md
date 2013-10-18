@@ -6,7 +6,7 @@ dfm Disk Free Monitor
 Yet another filesystem free monitor.
 
 The need is simple for the unix admininstrator, should not miss while a file system is near to fill and a warning system should not fill the inbox. 
-Out of this grew where we managed hundreds of unix server. It has the basic and extended monitoring capabilities. 
+Out of this, dfm grew where we managed hundreds of unix servers. It has the basic and extended monitoring capabilities. 
 
 In the basic mode you define the monitor groups set threshold for file systems and mails will arrive when this point passes. 
 
