@@ -1,0 +1,15 @@
+[root@babatorik dfm]# more dftrend.opts 
+#filesystem	%trend	%free	timetofill	%mix	warngroup
+#filesystem where mounted 
+#%trend fill ratio, how fast filesystem is getting filled
+#timetofill how many minites needs to fill the fs
+#%mix a weighted average of the three
+#who will be warned when of these conditions met
+#/home/dwhtest_archivelog	1	20	1000	60	unixsis
+# just leave a blank line after this. i will fix it later
+
+#/home/orauser2	1	90	500	50	unixsis
+/			90	1	95	500	50	unixsis 
+/			80	1	90	500	50	operators 
+/opt	90	1	95	500	50	unixsis 
+/opt	80	1	90	500	50	operators 
