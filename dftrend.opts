@@ -1,4 +1,3 @@
-[root@babatorik dfm]# more dftrend.opts 
 #filesystem	%trend	%free	timetofill	%mix	warngroup
 #filesystem where mounted 
 #%trend fill ratio, how fast filesystem is getting filled
