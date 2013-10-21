@@ -117,7 +117,7 @@ for ($i=0;$i<=$#ARGV;$i++) {
         use DBI;
         $usedb=1;
         $dbname="dfm";
-        $dbhost="172.18.9.100";
+        $dbhost="127.0.0.1";
         $port="5432";
         $username="dfm";
         $dbh = DBI->connect("dbi:Pg:dbname=$dbname;host=$dbhost;port=$port",
